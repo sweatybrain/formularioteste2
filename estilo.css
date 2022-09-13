@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+body{
+    background-color: rgb(152, 167, 185);
+}
+
+label, input {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: px;
+    background-color: rgba(45, 153, 102, 0.404);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+section#esquerda{
+    width: 40%;
+    height: 450px;
+    float: left;
+ 
+    
+}
+
+#direita{
+    width: 60%;
+    height: 450px;
+    float: right;
+}
+
+table {
+    background-color: lightseagreen;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+
+td{
+    padding: 0px 6px;
+    color: white;
+
+}
+
+a{
+    background-color: white;
+    color:black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+.aviso {
+    background-color: red;
+    width: 90%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.edit-btn{
+    background-color: rgb(226, 171, 19);
+    color: white;
+    border-radius: 6px;
+}
+
+.del-btn{
+    background-color: rgb(207, 41, 11);
+    color: white;
+}

@@ -135,8 +135,6 @@ if(isset($_POST['nome'])){
 </section>
 
 
-);
-});
 
     </script>
     
